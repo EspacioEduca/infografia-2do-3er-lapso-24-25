@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Infografía: Reporte Espacio Educa Segundo Y Tercer Lapso 2024-2025
+    </title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Inter", sans-serif;
+        background-color: #f4f4f4;
+        color: #000000; /* Main text color from brandboard */
+      }
+      .chart-container {
+        position: relative;
+        width: 100%;
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 350px;
+        max-height: 400px;
+      }
+      .flowchart-box {
+        border: 2px solid #3843d0; /* Dark Blue/Purple from brandboard */
+        background-color: #ffffff;
+        color: #000000;
+      }
+      .flowchart-line {
+        background-color: #3843d0; /* Dark Blue/Purple from brandboard */
+      }
+      .icon {
+        font-size: 2rem;
+        line-height: 1;
+      }
+    </style>
+  </head>
+  <body class="text-[#000000]">
+    <!-- Adjusted body text color to black from brandboard -->
+
+    <div class="container mx-auto p-4 md:p-8">
+      <header class="text-center mb-12">
+        <h1 class="text-4xl md:text-6xl font-black text-[#16006D] mb-2">
+          ESPACIO EDUCA
+        </h1>
+        <!-- Dark Purple from brandboard -->
+        <p class="text-xl md:text-2xl font-semibold text-[#3843D0]">
+          Reporte de Hitos y Crecimiento | Segundo y Tercer Lapso 2024-2025
+        </p>
+        <!-- Dark Blue/Purple from brandboard -->
+      </header>
+
+      <main>
+        <section id="academico" class="mb-16">
+          <h2 class="text-3xl font-bold text-center mb-8">
+            Contenido Académico Clave
+          </h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div
+              class="bg-[#3843D0] text-white p-6 rounded-xl shadow-lg transform hover:scale-105 transition-transform duration-300"
+            >
+              <!-- Dark Blue/Purple -->
+              <div class="icon mb-3">🎨</div>
+              <h3 class="text-xl font-bold mb-2">
+                CSS (Cascading Style Sheets)
+              </h3>
+              <p class="text-sm">
+                Dominio del diseño y la presentación visual de sitios web,
+                aprendiendo a controlar colores, fuentes y espaciado para crear
+                interfaces atractivas y funcionales.
+              </p>
+            </div>
+            <div
+              class="bg-[#F8623F] text-white p-6 rounded-xl shadow-lg transform hover:scale-105 transition-transform duration-300"
+            >
+              <!-- Orange/Red -->
+              <div class="icon mb-3">🧱</div>
+              <h3 class="text-xl font-bold mb-2">Layout & Positioning</h3>
+              <p class="text-sm">
+                Comprensión del modelo de caja (Box Model) para estructurar y
+                posicionar elementos de forma precisa, creando layouts complejos
+                y responsivos.
+              </p>
+            </div>
+            <div
+              class="bg-[#3843D0] text-white p-6 rounded-xl shadow-lg transform hover:scale-105 transition-transform duration-300"
+            >
+              <!-- Dark Blue/Purple -->
+              <div class="icon mb-3">🔗</div>
+              <h3 class="text-xl font-bold mb-2">Integración HTML & JS</h3>
+              <p class="text-sm">
+                Manipulación dinámica del DOM usando `querySelector` para crear
+                páginas web interactivas que responden a las acciones del
+                usuario en tiempo real.
+              </p>
+            </div>
+            <div
+              class="bg-[#F8623F] text-white p-6 rounded-xl shadow-lg transform hover:scale-105 transition-transform duration-300"
+            >
+              <!-- Orange/Red -->
+              <div class="icon mb-3">🔁</div>
+              <h3 class="text-xl font-bold mb-2">Arrays y Loops</h3>
+              <p class="text-sm">
+                Uso de arrays para organizar colecciones de datos y loops para
+                procesarlos eficientemente, una base fundamental para la
+                resolución de problemas.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section id="proyectos" class="mb-16">
+          <h2 class="text-3xl font-bold text-center mb-8">
+            Proyectos: Aplicando el Conocimiento
+          </h2>
+          <p class="text-center max-w-3xl mx-auto mb-10">
+            Los estudiantes aplicaron sus nuevas habilidades en una serie de
+            proyectos prácticos, cada uno diseñado para reforzar conceptos
+            específicos y fomentar la creatividad y la resolución de problemas.
+          </p>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+              <img
+                src="articulo.png"
+                alt="Captura de pantalla del Proyecto Artículo con CSS"
+                class="w-full h-40 object-cover"
+              />
+              <div class="p-6">
+                <h3 class="font-bold text-lg">Artículo con CSS</h3>
+                <p class="text-sm mt-2">
+                  Creación de un artículo visualmente atractivo, enfocándose en
+                  la legibilidad, el uso de imágenes y la estructura semántica
+                  de HTML.
+                </p>
+              </div>
+            </div>
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+              <img
+                src="landing.png"
+                alt="Captura de pantalla del Proyecto Landing Page"
+                class="w-full h-40 object-cover"
+              />
+              <div class="p-6">
+                <h3 class="font-bold text-lg">Landing Page</h3>
+                <p class="text-sm mt-2">
+                  Diseño de una página de aterrizaje profesional y responsiva,
+                  aplicando Flexbox, Box Model y una gestión coherente de la
+                  marca.
+                </p>
+              </div>
+            </div>
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+              <img
+                src="proyecto_final.png"
+                alt="Captura de pantalla del Proyecto Galería de Fotos"
+                class="w-full h-40 object-cover"
+              />
+              <div class="p-6">
+                <h3 class="font-bold text-lg">Currículum Virtual</h3>
+                <p class="text-sm mt-2">
+                  Desarrollo de un portafolio personal interactivo para mostrar
+                  sus habilidades y proyectos a futuros empleadores.
+                </p>
+              </div>
+            </div>
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+              <img
+                src="galeria.png"
+                alt="Captura de pantalla del Proyecto Galería de Fotos"
+                class="w-full h-40 object-cover"
+              />
+              <div class="p-6">
+                <h3 class="font-bold text-lg">Galería de Fotos</h3>
+                <p class="text-sm mt-2">
+                  Implementación de una galería dinámica usando Arrays y Loops
+                  para gestionar y mostrar imágenes con descripciones.
+                </p>
+              </div>
+            </div>
+            <div
+              class="bg-white rounded-xl shadow-lg overflow-hidden md:col-start-2 lg:col-start-auto"
+            >
+              <img
+                src="mario.png"
+                alt="Captura de pantalla del Proyecto Mini-juego Mario"
+                class="w-full h-40 object-cover"
+              />
+              <div class="p-6">
+                <h3 class="font-bold text-lg">Mini-juego: Mario</h3>
+                <p class="text-sm mt-2">
+                  Programación de la interactividad de un personaje simple,
+                  manipulando el DOM para simular acciones como saltar y
+                  moverse.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="extracurriculares" class="mb-16">
+          <h2 class="text-3xl font-bold text-center mb-8">
+            Desarrollo Integral: Actividades Extracurriculares
+          </h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+            <div class="bg-white p-6 rounded-xl shadow-lg">
+              <h3 class="font-bold text-xl mb-4 text-center">
+                Foco de las Actividades
+              </h3>
+              <p class="mb-6 text-center text-sm">
+                Las actividades extracurriculares se diseñaron para complementar
+                la formación técnica, enfocándose en habilidades blandas,
+                desarrollo profesional y competencia técnica a través de eventos
+                clave.
+              </p>
+              <div class="chart-container">
+                <canvas id="activitiesChart"></canvas>
+              </div>
+            </div>
+            <div class="space-y-6">
+              <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h3 class="font-bold text-lg">🗣️ Taller de Oratoria</h3>
+                <img
+                  src="alejandro.jpg"
+                  alt="Charla de oratoria con Alejandro León"
+                  class="w-full h-40 object-cover mt-2 rounded-lg"
+                />
+                <p class="text-sm mt-2">
+                  Con Alejandro León de La Mega, los estudiantes practicaron la
+                  presentación en público para mejorar su confianza y
+                  comunicación.
+                </p>
+              </div>
+              <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h3 class="font-bold text-lg">🏆 Hackathon Interno</h3>
+
+                <img
+                  src="ganadores_hackathon.jpg"
+                  alt="Ganadores del Hackathon Interno"
+                  class="w-full h-40 object-cover mt-2 rounded-lg"
+                />
+                <p class="text-sm mt-2">
+                  La segunda edición de nuestra competencia de programación,
+                  donde los equipos resolvieron desafíos en categorías básica y
+                  avanzada.
+                </p>
+              </div>
+              <div class="bg-white p-6 rounded-xl shadow-lg">
+                <h3 class="font-bold text-lg">💼 Talleres Profesionales</h3>
+                <img
+                  src="charla_ubii.jpg"
+                  alt="Charla de Finanzas Personales con Ligia Velásquez de Ubii Pagos"
+                  class="w-full h-40 object-cover mt-2 rounded-lg"
+                />
+                <p class="text-sm mt-2">
+                  Charlas sobre Finanzas Personales con Ligia Velásquez (Ubii
+                  Pagos) y sobre cómo construir un CV de impacto con nuestro
+                  equipo de Desarrollo Integral.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="iniciativas" class="mb-16">
+          <h2 class="text-3xl font-bold text-center mb-8">
+            Nuevas Iniciativas y Visión de Futuro
+          </h2>
+          <p class="text-center max-w-3xl mx-auto mb-10">
+            Para asegurar un crecimiento sostenible y de alto impacto, hemos
+            puesto en marcha varias iniciativas estratégicas clave.
+          </p>
+
+          <div class="flex flex-col items-center">
+            <div
+              class="flowchart-box p-4 rounded-lg shadow-md text-center w-full max-w-md"
+            >
+              <h3 class="font-bold text-xl">OBJETIVO PRINCIPAL</h3>
+              <p>
+                Institucionalizar Espacio Educa para mayor resiliencia y
+                escalabilidad.
+              </p>
+            </div>
+            <div class="w-1 h-12 flowchart-line"></div>
+
+            <div class="w-full flex justify-center">
+              <div class="w-1/2 md:w-2/3 h-1 flowchart-line"></div>
+            </div>
+
+            <div
+              class="w-full flex flex-col md:flex-row justify-between relative"
+            >
+              <div class="w-full h-1 flowchart-line block md:hidden"></div>
+
+              <div class="flex flex-col items-center w-full md:w-1/3 p-4">
+                <div class="w-1 h-8 flowchart-line"></div>
+                <div class="flowchart-box p-4 rounded-lg shadow-md text-center">
+                  <h4 class="font-bold">Reestructuración del Equipo</h4>
+                  <p class="text-sm">Nuevos roles y responsabilidades.</p>
+                </div>
+              </div>
+
+              <div class="flex flex-col items-center w-full md:w-1/3 p-4">
+                <div class="w-1 h-8 flowchart-line"></div>
+                <div class="flowchart-box p-4 rounded-lg shadow-md text-center">
+                  <h4 class="font-bold">Medición de Impacto</h4>
+                  <p class="text-sm">Evaluación final para mejora contínua.</p>
+                </div>
+              </div>
+
+              <div class="flex flex-col items-center w-full md:w-1/3 p-4">
+                <div class="w-1 h-8 flowchart-line"></div>
+                <div class="flowchart-box p-4 rounded-lg shadow-md text-center">
+                  <h4 class="font-bold">Nuevas Alianzas Estratégicas</h4>
+                  <p class="text-sm">
+                    Buscando pasantías y oportunidades con líderes de la
+                    industria.
+                  </p>
+                </div>
+                <div class="w-1 h-8 flowchart-line"></div>
+                <div class="w-full flex justify-center mt-2">
+                  <ul class="text-sm text-center list-none p-0">
+                    <li
+                      class="bg-gray-200 py-1 px-3 rounded-full inline-block m-1"
+                    >
+                      Colegio de Ingenieros
+                    </li>
+                    <li
+                      class="bg-gray-200 py-1 px-3 rounded-full inline-block m-1"
+                    >
+                      Xtreme Arena
+                    </li>
+                    <li
+                      class="bg-gray-200 py-1 px-3 rounded-full inline-block m-1"
+                    >
+                      Kurios Education
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="text-center mt-12 border-t pt-8 border-gray-300">
+        <p class="font-bold">
+          Gracias por su continuo apoyo en nuestra misión de transformar vidas a
+          través de la programación.
+        </p>
+      </footer>
+    </div>
+
+    <script>
+      const ctx = document.getElementById("activitiesChart");
+
+      new Chart(ctx, {
+        type: "doughnut",
+        data: {
+          labels: [
+            "Desarrollo Profesional",
+            "Habilidades Blandas",
+            "Competencia Técnica",
+          ],
+          datasets: [
+            {
+              label: "Foco de Actividades",
+              data: [2, 1, 1],
+              backgroundColor: [
+                "#3843D0" /* Dark Blue/Purple */,
+                "#F8623F" /* Orange/Red */,
+                "#16006D" /* Dark Purple */,
+              ],
+              borderColor: "#FFFFFF",
+              borderWidth: 4,
+              hoverOffset: 8,
+            },
+          ],
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: {
+              position: "bottom",
+              labels: {
+                font: {
+                  size: 14,
+                },
+                padding: 20,
+              },
+            },
+            tooltip: {
+              callbacks: {
+                title: function (tooltipItems) {
+                  const item = tooltipItems[0];
+                  let label = item.chart.data.labels[item.dataIndex];
+                  if (Array.isArray(label)) {
+                    return label.join(" ");
+                  } else {
+                    return label;
+                  }
+                },
+              },
+            },
+          },
+          cutout: "60%",
+        },
+      });
+    </script>
+  </body>
+</html>
